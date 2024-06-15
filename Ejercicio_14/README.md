@@ -1,10 +1,24 @@
-Ejercicio 16
-Registrar en MongoDB algunos usuarios (nombre, apellido, usuario, clave)
-Tener disponible un endpoint con FastAPI para validar usuarios.
-Ejercicio 16 (continuación):
-Que el endpoint para validar a los usuarios sea con un POST y que devuelva "denegado" o que devuelva el nombre y el apellido del usuario en el siguiente formato: "Juan Carlos::Ponce"
-Probar el funcionamiento de este endpoint mediante la web de prueba de FastAPI.
-Ejercicio 16 (continuación):
-Este ejercicio viene de la clase 5 y 7.
-Luego de tener registrados los usuarios en MongoDB y funcionando el endpoint.
-Acondicionar la clase Login para validar los usuarios contra el endpoint de FastAPI.
+Ejercicio 14
+Diseñar un login con QGridLayout.
+Usar asteriscos para la clave.
+Detectar enter para simular la pulsación del botón.
+Definir la clase Formulario que será un QWidget
+Formulario tendrá QLabels y QLineEdits para Legajo, Nombre y Apellido, y un QPushButton
+Si la clave ingresada es admin:1111, se cierra Login y se muestra Formulario
+Si se ingresa otra clave se borrará el texto del QLineEdit de la clave.
+Ejercicio 14 (continuación):
+Publicar en la ventana de Login, la temperatura actual en la Ciudad de Córdoba. Usar alguna API disponible.
+Agregar un método en Login que permita mostrar u ocultar la información de la temperatura.
+Además que la ventana de Login tenga como background una imagen descargada de interner, centrada y adaptada en tamaño, sin deformar su aspecto y que permita al usuario que modifique el tamaño del Login y que se siga viendo correctamente la imagen.
+Agregar un método en Login que permita indicar la URL de la imagen que se mostrará en el background. En caso que nunca se invoque a este método, ninguna imagen se mostrará.
+Ejercicio 14 (continuación):
+Agregar la siguiente característica a Login: Si el usuario falla 3 veces la clave, bloquear por 5 minutos a ese usuario.
+Ejercicio 14 (continuación):
+Este ejercicio viene de la clase 5, 7 y 8.
+Incorporar la validación de usuarios con QSLite.
+Todo lo que se haga con la base de datos, que se encuentre en la clase AdminDB
+Pueden utilizar SQLiteStudio (https://sqlitestudio.pl) o similar.
+Ejercicio 14 (continuación):
+Este ejercicio viene de la clase 5, 7, 8 y 12.
+Implementar en AdminDB el uso de MD5 para las claves de los usuarios.
+Acondicionar para que el método utilizado sea el siguiente:
